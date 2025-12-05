@@ -28,10 +28,15 @@ My Classes for Next Quarter:
 Explanation:
 [Write 4-6 sentences about your next quarter schedule:
 - Why did you choose these classes?
+    All of these are either required or somewhat easy. I also really want to learn sign language because I know a family with deaf parents. I also like Chorus because I have that with my friend, and that class is very fun. I am pretty excited for Biology and English, because I am with my friends in those.
 - What are you most looking forward to learning?
+    I am most looking forward to learning in Biology. I don't know much about science, so it's good to learn. I also think that Biology is a very intersting topic. It is also somewhat important to learn about Biology.
 - Which class do you think will be most challenging and why?
+    I think that English will be the most challenging. I don't like wriiting long essays, and I'm overall not great at applying english terms to reading and writing. I am pretty good at writing and reading, it's just applying terms and writing about something that oesn't interest me that I'm nervous about. Reading something that isn't interesting might be hard to go along with.
 - If you have a free period, how do you plan to use it productively?
+    I don't have a free period.
 - How will these classes help you reach your academic or career goals?]
+    These classes will help me stretch my knowledge. This is good because sometimes if I'm not doing something challenging, I don't learn as much. I also think that it's good that I have a good amount of easier classes. This will keep me on track while still giving me a daily break to make sure I'm doing well.
 
 
 Free Period Challenge (if applicable):
@@ -47,9 +52,13 @@ REFLECTION
 What I Learned:
 [Write 5-8 sentences reflecting on Module 1:
 - What Bootstrap concepts made sense to you?
+    Some bootstrap concepts that made sense to me were customization. I thought that it was cool to customize my text and overall the whole website. I like that you can make it your own easily. Another one I understood was Utility Classes like margins and text alignment. I like that one because it makes it so much easier to make your page look more put together or however you want it to look.  
 - What was most challenging?
+    The most challenging part was when I would see something wrong with my website, and I couldn't find what I did wrong. I would go back to check, and I couldn't find the issue. It was frustrating when I know somethings wrong but I'm lost. However, it felt very releiving once I found out how to solve my issue. I just really don't like when everything get unorganized.
 - How do you feel about your CSS customization?
+    My CSS customization is way better than before. I feel more confident in my work after this module. I think that it is important to be confident in your work. I feel like I can code way better on my own where I'm at right now. There are a few things that still confuse me, but only a little bit.
 - What would you add to JagTrack in the future?
+    In the future I would add some tips for future classes. I would also add some photos for a better look. I could also see myself adding some cuter designs if I felt like it. Other than that, though, the website is pretty good how it is. I would only make a few customization changes if I felt like it.
 - How will you use this site for planning next quarter?]
-
-Hours Spent: [Approximate time on this module]
+    I will use this site to see my future classes. Soemtimes I forget what classes I have next quarter. This website will help me prepare and get the materials I need. I can also get ready to learn the material that I am expecting for these upcoming classes. This website will help me stay organized throughout the rest of the quarter.
+Hours Spent: 3 hours
