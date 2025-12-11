@@ -18,57 +18,169 @@
 </head>
 
 <body>
-
-
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/ja-initials.svg" height="30" width="30" alt="JA Logo" />
+                JagTrack
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jagtrackNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="jagtrackNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myclassesnextquarter.html">Next Quarter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ai-chat.html">AI Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="theme-toggle">
+                            <span id="theme-icon">☀️</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="row row-content">
-
-            </div>
-            <div class="row align-items-center">
-                <div class="col-4">
-                    <img src="img/ja-logo.svg" alt="Jefferson Academy Logo" />
-                </div>
-                <div class="col">
+            <div class="row">
+                <div class="col text-center">
                     <h1>JagTrack</h1>
                     <h2>Your Academic Success Hub</h2>
                 </div>
             </div>
         </div>
     </header>
-    <div class="col-12 col-md-6 col-lg-3">
-        <div class="class-card">
-            <h4>A Block</h4>
-            <h5>Human Geography</h5>
-            <p>8:25 AM - 9:55 AM</p>
-            <a href="https://jajags.instructure.com/courses/3131" target="_blank">Go to Canvas →</a>
+    <!-- TOGGLE BUTTON — OUTSIDE BOTH VIEWS -->
+    <div class="text-center my-3">
+        <button class="btn btn-warning" id="toggle-view">Switch to Grid View</button>
+    </div>
+
+    <div class="container" id="tabs-view">
+
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">My Current Classes</h2>
+                <hr />
+            </div>
+        </div>
+
+
+        <ul class="nav nav-tabs" id="classTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="a-block-tab" data-toggle="tab" href="#a-block" role="tab">A Block</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="b-block-tab" data-toggle="tab" href="#b-block" role="tab">B Block</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="c-block-tab" data-toggle="tab" href="#c-block" role="tab">C Block</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="d-block-tab" data-toggle="tab" href="#d-block" role="tab">D Block</a>
+            </li>
+        </ul>
+
+
+        <div class="tab-content" id="classTabContent">
+            <div class="tab-pane fade show active" id="a-block" role="tabpanel">
+                <div class="class-card">
+                    <h4>A Block: Human Geography</h4>
+                    <h5>8:25 AM - 9:55 AM</h5>
+                    <p>Exploring different places, and why their history led to where the people and land is where it's
+                        at today.</p>
+                    <a href="https://jajags.instructure.com/courses/3131" target="_blank" class="btn btn-primary">Go to
+                        Canvas →</a>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="b-block" role="tabpanel">
+                <div class="class-card">
+                    <h4>B Block: Web Design in HTML & CSS</h4>
+                    <h5>10:00 AM - 11:30 AM</h5>
+                    <p>Building modern, responsive websites using HTML, CSS, and Bootstrap framework. Creating the
+                        JagTrack project!</p>
+                    <a href="https://jajags.instructure.com/courses/3438" target="_blank" class="btn btn-primary">Go to
+                        Canvas →</a>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="c-block" role="tabpanel">
+                <div class="class-card">
+                    <h4>C Block: Modern World History</h4>
+                    <h5>12:15 PM - 1:45 PM</h5>
+                    <p>Learning about many ancient civilizations, how they ran, and why they did the things they did.
+                    </p>
+                    <a href="https://jajags.instructure.com/courses/3327" target="_blank" class="btn btn-primary">Go to
+                        Canvas →</a>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="d-block" role="tabpanel">
+                <div class="class-card">
+                    <h4>D Block: Geometry Honors</h4>
+                    <h5>1:50 PM - 3:20 PM</h5>
+                    <p>Studying angles in triangles, many theorems, and circle rules.</p>
+                    <a href="https://jajags.instructure.com/courses/3354" target="_blank" class="btn btn-primary">Go to
+                        Canvas →</a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-3">
-        <div class="class-card">
-            <h4>B Block</h4>
-            <h5>Web Design in HTML & CSS</h5>
-            <p>10:00 AM - 11:30 AM</p>
-            <a href="https://jajags.instructure.com/courses/3438" target="_blank">Go to Canvas →</a>
+
+    <!-- === GRID VIEW (Original class cards) === -->
+    <div class="container d-none" id="grid-view">
+        <div class="row row-content">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="class-card">
+                    <h4>A Block</h4>
+                    <h5>Human Geography</h5>
+                    <p>8:25 AM - 9:55 AM</p>
+                    <a href="https://jajags.instructure.com/courses/3131" target="_blank">Go to Canvas →</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="class-card">
+                    <h4>B Block</h4>
+                    <h5>Web Design in HTML & CSS</h5>
+                    <p>10:00 AM - 11:30 AM</p>
+                    <a href="https://jajags.instructure.com/courses/3438" target="_blank">Go to Canvas →</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="class-card">
+                    <h4>C Block</h4>
+                    <h5>Modern World History</h5>
+                    <p>12:15 PM - 1:45 PM</p>
+                    <a href="https://jajags.instructure.com/courses/3327" target="_blank">Go to Canvas →</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="class-card">
+                    <h4>D Block</h4>
+                    <h5>Geometry Honors</h5>
+                    <p>1:50 PM - 3:20 PM</p>
+                    <a href="https://jajags.instructure.com/courses/3354" target="_blank">Go to Canvas →</a>
+                </div>
+            </div>
+
         </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-        <div class="class-card">
-            <h4>C Block</h4>
-            <h5>Modern World History</h5>
-            <p>12:15 PM - 1:45 PM</p>
-            <a href="https://jajags.instructure.com/courses/3327" target="_blank">Go to Canvas →</a>
-        </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-        <div class="class-card"> 
-            <h4>D Block</h4>
-            <h5>Geometry Honors</h5>
-            <p>1:50 PM - 3:20 PM</p>
-            <a href="https://jajags.instructure.com/courses/3354" target="_blank">Go to Canvas →</a>
-        </div>
-    </div>
-    </div>
     </div>
 
     <div class="container">
@@ -118,36 +230,54 @@
 
 
     <footer>
-   <div class="container">
-       <div class="row">
-           <div class="col-4 col-sm-2 offset-1">
-               <h5>Quick Links</h5>
-               <ul class="list-unstyled">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
-                   <li><a href="#">Resources</a></li>
-                   <li><a href="#">Contact</a></li>
-               </ul>
-           </div>
-           <div class="col-6 col-sm-5 text-center">
-               <h5>Connect</h5>
-               <a href="#">Canvas Portal</a> |
-               <a href="#">Study Groups</a> |
-               <a href="#">Help Center</a>
-           </div>
-           <div class="col-sm-4 text-center">
-               <h5>Contact</h5>
-               Jefferson Academy Secondary<br />
-               Email: <strong>hannah.livingston@jajags.com</strong>
-           </div>
-       </div>
-   </div>
-</footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Connect</h5>
+                    <a href="#">Canvas Portal</a> |
+                    <a href="#">Study Groups</a> |
+                    <a href="#">Help Center</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h5>Contact</h5>
+                    Jefferson Academy Secondary<br />
+                    Email: <strong>hannah.livingston@jajags.com</strong>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <a href="ai-chat.html">AI Assistant</a>
+    <script>
+        document.getElementById("toggle-view").addEventListener("click", function () {
+            const grid = document.getElementById("grid-view");
+            const tabs = document.getElementById("tabs-view");
+
+            if (grid.classList.contains("d-none")) {
+                // Show Grid, hide Tabs
+                grid.classList.remove("d-none");
+                tabs.classList.add("d-none");
+                this.textContent = "Switch to Tabs View";
+            } else {
+                // Show Tabs, hide Grid
+                grid.classList.add("d-none");
+                tabs.classList.remove("d-none");
+                this.textContent = "Switch to Grid View";
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -164,3 +164,113 @@ footer ul li {
   list-style: none;
   margin-bottom: 8px;
 }
+/* ===== NAVBAR STYLES ===== */
+
+
+.navbar {
+ background: linear-gradient(135deg, var(--jag-black) 0%, #222222 100%);
+ padding: 0.5rem 1rem;
+}
+
+
+.navbar-brand {
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: var(--jag-gold) !important;
+}
+
+
+.navbar-brand img {
+ margin-right: 10px;
+}
+
+
+.nav-link {
+ color: var(--text-light) !important;
+ font-weight: 500;
+ margin: 0 10px;
+ transition: color 0.3s ease;
+}
+
+
+.nav-link:hover {
+ color: var(--jag-gold) !important;
+}
+
+
+.navbar-toggler {
+ border-color: var(--jag-gold);
+}
+
+
+body {
+ padding-top: 56px;
+}
+
+
+.jumbotron {
+ margin-top: 0;
+}
+/* ===== TABS STYLES ===== */
+
+
+.nav-tabs {
+ border-bottom: 2px solid var(--jag-accent);
+ margin-bottom: 20px;
+}
+
+
+.nav-tabs .nav-link {
+ background-color: var(--jag-gold);
+ border: none;
+ font-weight: 600;
+ padding: 10px 20px;
+ transition: all 0.3s ease;
+}
+
+
+.nav-tabs .nav-link:hover {
+ background-color: var(--jag-accent);
+ color: black !important;
+}
+
+
+.nav-tabs .nav-link.active {
+ color: var(--jag-black);
+ background-color: var(--jag-gold);
+ border: none;
+ border-radius: 0;
+}
+
+
+.tab-content {
+ padding: 20px 0;
+}
+
+
+.tab-pane .class-card {
+ margin-bottom: 0;
+}
+
+#toggle-view {
+    background-color: #D7CD89 !important;
+    border-color: #D7CD89 !important;
+    color: black; /* optional: change text color */
+}
+#toggle-view:hover {
+    background-color: #c6be7d !important;
+    border-color: #c6be7d !important;
+}
+/* Gold "Go to Canvas" Buttons */
+.btn-primary {
+    background-color: var(--jag-gold) !important;
+    border-color: var(--jag-gold) !important;
+    color: black !important;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--jag-accent) !important;
+    border-color: var(--jag-accent) !important;
+    color: black !important;
+}
