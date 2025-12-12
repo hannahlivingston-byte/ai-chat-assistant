@@ -62,3 +62,26 @@ What I Learned:
 - How will you use this site for planning next quarter?]
     I will use this site to see my future classes. Soemtimes I forget what classes I have next quarter. This website will help me prepare and get the materials I need. I can also get ready to learn the material that I am expecting for these upcoming classes. This website will help me stay organized throughout the rest of the quarter.
 Hours Spent: 3 hours
+
+
+EXERCISE 2: GOOGLE CALENDAR INTEGRATION
+
+
+Calendar Setup:
+- Did you create a new calendar or use an existing one? I created a new calendar.
+- How many Canvas iCal feeds did you add? 2
+- Did you add them individually by course or as one combined feed? One combined feed, because it worked when I went to Canvas.
+
+
+Reflection:
+[Write 4-5 sentences about the calendar integration:
+- How will this calendar help you stay organized?
+    This calendar will help me keep teck of when things are due. This will help me get ready for something coming up. Sometimes I forget that I have something coming up for school, so this will be very nice. I hope this keeps me more prepared and helps me organize my time.
+- What challenges did you face getting it set up?
+    When I was trying to make it match my website, it came out weird at first. I had to backtrack and see that I used the wrong class. I also wanted to make button to toggle between week, month, and agenda view on the calendar. Once I did it, the buttons were  on the calender, rather than above it, so I had to fix that.
+- Did you customize the calendar appearance? How?
+    I did, by making the colors match the rest of my website. I also added emojis for a visual view on what you were looking at. I made buttons to switch from month view, week view, and agenda view. I also changed some fonts like italisizing, so you could differntiate what information wasn't as important.
+- What view works best for you (month, week, agenda)?
+    The view that works best for me is week view. I like to be able to see what I have coming up, not just one day. However, I feel like sometimes a month view is too much to look at. I don't need to overwhelm myself over something that I'm not required to do until 4 weeks from now. However, it's nice to have that option there, in case I have a big project and I want to know when to start it so I can time everything out wisely.
+- What other calendars might you add in the future?]
+    I might add a calendar that has my stuff planned out that doesn't have to do with school. This was I can make plans with my friends and remember when they are, so I don't have to remember it at the top of my head. It's also easier to make other plans when you know what you have and when. It would feel a lot more organized knowing what plans I have, and how I can schedule everything around them.
