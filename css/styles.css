@@ -3,23 +3,63 @@
 
 
 :root {
-  /* Primary Brand Colors */
-  --jag-black: #000000;          /* Jefferson Academy Black */
-  --jag-gold: #D7CD89;           /* Jefferson Academy Gold */
-  --jag-accent: #b1a363;         /* Darker gold accent */
+ /* Primary Brand Colors */
+  --jag-black: #ff5e86;          /* Jefferson Academy Black */
+  --jag-gold: #ff8fb4;           /* Jefferson Academy Gold */
+  --jag-accent: #fd8888;         /* Darker gold accent */
 
 
   /* Text Colors */
-  --text-dark: #000000;
+  --text-dark: #ee4747;
   --text-light: #ffffff;
-  --text-muted: #6c757d;
+  --text-muted: #ff699b;
 
 
   /* Background Colors */
-  --background-light: #f8f7f2;   /* Light gold background */
+  --background-light: #ffcae3;   /* Light gold background */
   --background-white: #ffffff;
-  --background-dark: #343a40;
+  --background-dark: #ff5781;
 }
+[data-theme="light"] {
+ /* Primary Brand Colors */
+  --jag-black: #000f58;          /* Jefferson Academy Black */
+  --jag-gold: #656ca1;           /* Jefferson Academy Gold */
+  --jag-accent: #8e93a8;         /* Darker gold accent */
+
+
+
+
+  /* Text Colors */
+  --text-dark: #ebe8ff;
+  --text-light: #ffffff;
+  --text-muted: #09013a;
+
+
+
+
+  /* Background Colors */
+  --background-light: #1f3049;   /* Light gold background */
+  --background-white: #364d96;
+  --background-dark: #241b5a
+}
+/* ===== JAGUARS SPIRIT THEME ===== */
+[data-theme="jaguars"] {
+  /* Primary Brand Colors */
+  --jag-black: #000000;
+  --jag-gold: #D7CD89;
+  --jag-accent: #b8ad6f;
+
+  /* Text Colors */
+  --text-dark: #000000;
+  --text-light: #000000;
+  --text-muted: #3a3a3a;
+
+  /* Background Colors */
+  --background-light: #D7CD89;
+  --background-white: #f5f1d4;
+  --background-dark: #b8ad6f;
+}
+
 
 
 /* ===== BODY & GENERAL STYLES ===== */
@@ -253,13 +293,13 @@ body {
 }
 
 #toggle-view {
-    background-color: #D7CD89 !important;
-    border-color: #D7CD89 !important;
-    color: black; /* optional: change text color */
+    background-color: #ffffff !important;
+    border-color: #b6afaf !important;
+    color: rgb(0, 0, 0); /* optional: change text color */
 }
 #toggle-view:hover {
-    background-color: #c6be7d !important;
-    border-color: #c6be7d !important;
+    background-color: #f8ddb3 !important;
+    border-color: #ffffff !important;
 }
 /* Gold "Go to Canvas" Buttons */
 .btn-primary {
@@ -357,4 +397,57 @@ body {
     background-color: var(--jag-accent);
     border-color: var(--jag-black);
     color: black;
+}
+
+
+#theme-toggle {
+ font-size: 1.1rem;
+ padding: 5px 10px;
+ margin-left: 5px;
+ border-radius: 50%;
+ transition: all 0.2s ease;
+ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+#theme-toggle:hover {
+ background-color: rgba(255, 255, 255, 0.1);
+ transform: scale(1.1);
+}
+/* ===== JAGUARS SPIRIT: FORCE VISIBILITY ===== */
+
+/* Navbar brand */
+html[data-theme="jaguars"] .navbar .navbar-brand {
+  color: #D7CD89 !important;
+}
+
+/* Navbar links */
+html[data-theme="jaguars"] .navbar .nav-link {
+  color: #D7CD89 !important;
+}
+
+html[data-theme="jaguars"] .navbar .nav-link:hover {
+  color: #000000 !important;
+}
+
+/* Jumbotron title + subtitle */
+html[data-theme="jaguars"] .jumbotron h1,
+html[data-theme="jaguars"] .jumbotron h2 {
+  color: #D7CD89 !important;
+}
+
+/* Footer background for contrast */
+html[data-theme="jaguars"] footer {
+  background-color: #000000 !important;
+}
+
+/* Footer text + links */
+html[data-theme="jaguars"] footer,
+html[data-theme="jaguars"] footer h5,
+html[data-theme="jaguars"] footer a {
+  color: #D7CD89 !important;
+}
+
+html[data-theme="jaguars"] footer a:hover {
+  color: #ffffff !important;
 }

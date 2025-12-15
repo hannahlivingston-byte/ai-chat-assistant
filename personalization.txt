@@ -85,3 +85,44 @@ Reflection:
     The view that works best for me is week view. I like to be able to see what I have coming up, not just one day. However, I feel like sometimes a month view is too much to look at. I don't need to overwhelm myself over something that I'm not required to do until 4 weeks from now. However, it's nice to have that option there, in case I have a big project and I want to know when to start it so I can time everything out wisely.
 - What other calendars might you add in the future?]
     I might add a calendar that has my stuff planned out that doesn't have to do with school. This was I can make plans with my friends and remember when they are, so I don't have to remember it at the top of my head. It's also easier to make other plans when you know what you have and when. It would feel a lot more organized knowing what plans I have, and how I can schedule everything around them.
+
+
+    EXERCISE 3: DARK/LIGHT MODE TOGGLE
+
+
+Color Scheme Design:
+[Write 5-7 sentences about your color choices:
+- What colors did you choose for light mode? Why?
+    I chose different shades of pink because that is my favorite color. I really like how everything goes together in the light mode. You can see everything, and it feels like it wwakes you up. Everything is nice and clear which is good for a website. Because pink is my favorite color, I think that everything looks very good together, and I like looking at it.
+- What colors did you choose for dark mode? Why?
+    I chose dark blues because that is my second favorite color. All of them look really good, and you can still see everything clearly. I learned that I should put light text on a dark background for dark mode, and it looks great. The dark is also a good rest on the eyes, and I like that it automatically turns on at 7pm-7am. I really like navy blue, so this is really nice to look at.
+- How do your color choices reflect your personality or style?
+    I have always said the pink and navy blue were my favorite colors, so this is perfect. I also have always loved light pink more that dark pink, and dark blue more than light blue, so them being a light vs dark theme was perfect. I think that those to colors look great together in general, and they're just overall great colors. I think that this shows that pink is the sort of fun in someone, and the dark blue represents the mellow, resting part. This is nice because it shows too very different moods simply in colors that are both great.
+- Did you use any color theory principles (complementary, analogous, etc.)?
+    Yes, I used many Analogous colors. If I wanted a section to be fully blue, but not too much of the same color, I would just pick one close to it. I also would do this for pink, and it made every section look lie it had more dimension. Other than that, I'm not sure if I did anything else in that manor. I didn't use many opposite colors, because I wanted to keep the scheeme. The most I used opposite colors was the background to the text, because I needed to be able to see the text.
+- How did you ensure good contrast for accessibility?
+    Pretty much all I did to make sure you could see everything was tested things. I had the code open on one side, and the webpage on the other. I would put in a color, and if it worked, it worked. If it didn't look great, or blended into the background too much, I would test an opposite color. I would just test things until they worked, and that worked pretty well.
+- What tools did you use to help choose colors?
+    I used some websited that were given to me in the instructions. I used the one where I can look at good pallets. I also used one that gave you a color wheel and then gave you that chosen color's hex code. Other than that, I did most of the color choosing myself. I used the wheel that they have in the coding when you are picking a color to use, and that seemed to work pretty well.
+- Were there any colors you tried that didn't work? Why not?]
+    I tried to do the ocean theme that was suggested, but I didn't love it. I couldn't find a good cyan color that I liked. I also didn't like how much blue there was. It wasn't too much, and I do really like blue, but on every page seemed like a little much. I wanted something different, so I made one of the pages pink.
+
+
+Theme Preferences:
+- Which theme do you prefer personally and why? I prefer the pink theme because I think that it is very pretty and everything looks good together.
+- When do you think dark mode is most useful? I think that dark mode is useful when you are in the dark, because then your eyes won't be so surprised by a sudden bright light, and your eyes can relax.
+- Did you create any custom CSS for the toggle button? Yes, I gave it a shadow and made the button a little smaller beacause I didn't love the size.
+
+
+JavaScript Understanding:
+[Write 4-5 sentences showing you understand the JavaScript code:
+- In your own words, what does the JavaScript do?
+    The JavaScript checks on localStorage every time the page reloads. This will apply it. This way, my theme will stay with with what I change. This is good so that all of the styles stay for the themes. 
+- What is localStorage and why is it useful?
+    localStorage is something throughtout he whole website. It is checked on by Javascript. This happens every page load, which leads to my theme preferences staying with me. This way when we update it, it will come to be.
+- What happens when you click the theme toggle button?
+    When I click it, it changes to dark mode. I also addded a jaguar theme to the toggle. If I click it again, the theme is gold and black for Jefferson Academy. This is nice to have three themes, and I also like the little jaguar icon that is there when I click it.
+- Why does the theme preference persist when you reload the page?
+    We made it this way so that when somebody reloads for some reason, the theme doesn't change. It's just more convienient this way. If you are in the dark using dark mode, and you reload the page, it would be annoying to get exposed to so much light all of a sudden. It would also be annoying to have to switch back to the theme that you were on every time.
+- How might you use JavaScript in future projects?]
+    In future projects, I might use it to have toggles. If I am making a game in the future, such as tic tac toe, I will use it to let the user place their peice. It would also be nice to have this when making any other website, because there is often a usage of toggles. This weold keep everything overall better organized.

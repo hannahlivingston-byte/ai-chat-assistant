@@ -223,30 +223,30 @@
 
 
     <div class="container" id="calendar-section">
-    <div class="row row-content">
-        <div class="col text-center">
-            <h2>Calendar & Deadlines 📅</h2>
-            <h3>Stay On Track</h3>
-            <p class="tip-text">📝 Tip: Click on events for details. Use the buttons below to switch views.</p>
+        <div class="row row-content">
+            <div class="col text-center">
+                <h2>Calendar & Deadlines 📅</h2>
+                <h3>Stay On Track</h3>
+                <p class="tip-text">📝 Tip: Click on events for details. Use the buttons below to switch views.</p>
 
+            </div>
+        </div>
+
+        <!-- Buttons above the calendar -->
+        <div class="text-center my-3">
+            <button class="btn btn-primary mx-2 calendar-btn" data-view="MONTH">Month View</button>
+            <button class="btn btn-primary mx-2 calendar-btn" data-view="WEEK">Week View</button>
+            <button class="btn btn-primary mx-2 calendar-btn" data-view="AGENDA">Agenda View</button>
+        </div>
+
+        <!-- Calendar iframe -->
+        <div class="calendar-container">
+            <iframe id="calendarFrame"
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=WEEK&title=JagTrack%20-%20School%20Assignments&src=Y18wNjVhOWQ4NWZlMmVjMzRmNjM4YmU5NjUwMWNhNTVjM2IxZTZjNTI3ODA5MDMwYWNiNzBjOGQ5ZjNlZGE4ZjYyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=bzdnN2wyMTFqbmZva2dvdGJjb2tsb2IwMjJmOWVtZWlAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23e67c73&color=%23ffdef1"
+                class="google-calendar-responsive" style="border:solid 1px #777" height="600" frameborder="0"
+                scrolling="no"></iframe>
         </div>
     </div>
-
-    <!-- Buttons above the calendar -->
-    <div class="text-center my-3">
-        <button class="btn btn-primary mx-2 calendar-btn" data-view="MONTH">Month View</button>
-        <button class="btn btn-primary mx-2 calendar-btn" data-view="WEEK">Week View</button>
-        <button class="btn btn-primary mx-2 calendar-btn" data-view="AGENDA">Agenda View</button>
-    </div>
-
-    <!-- Calendar iframe -->
-    <div class="calendar-container">
-        <iframe id="calendarFrame"
-            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=WEEK&title=JagTrack%20-%20School%20Assignments&src=Y18wNjVhOWQ4NWZlMmVjMzRmNjM4YmU5NjUwMWNhNTVjM2IxZTZjNTI3ODA5MDMwYWNiNzBjOGQ5ZjNlZGE4ZjYyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=bzdnN2wyMTFqbmZva2dvdGJjb2tsb2IwMjJmOWVtZWlAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23e67c73&color=%23ffdef1"
-            class="google-calendar-responsive" style="border:solid 1px #777" height="600" frameborder="0"
-            scrolling="no"></iframe>
-    </div>
-</div>
 
 
 
@@ -282,6 +282,8 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <a href="ai-chat.html">AI Assistant</a>
+    <!-- Custom JavaScript for theme toggle -->
+    <script src="js/theme-toggle.js"></script>
     <script>
         document.getElementById("toggle-view").addEventListener("click", function () {
             const grid = document.getElementById("grid-view");
