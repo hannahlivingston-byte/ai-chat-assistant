@@ -126,3 +126,33 @@ JavaScript Understanding:
     We made it this way so that when somebody reloads for some reason, the theme doesn't change. It's just more convienient this way. If you are in the dark using dark mode, and you reload the page, it would be annoying to get exposed to so much light all of a sudden. It would also be annoying to have to switch back to the theme that you were on every time.
 - How might you use JavaScript in future projects?]
     In future projects, I might use it to have toggles. If I am making a game in the future, such as tic tac toe, I will use it to let the user place their peice. It would also be nice to have this when making any other website, because there is often a usage of toggles. This weold keep everything overall better organized.
+
+    Bootstrap Components Used:
+1. Navbar - Used for [Used for the top navigation menu so I can move between pages.]
+2. Grid System - Used for [organizing the hobbies section into 3 colums that move on different screen sizes.]
+3. Cards - Used for [displaying hobbies in a clean, organized way.]
+4. Badges - Used for [Used in "My Skills" to show skills in a compact and colorful way.]
+(Add more if you used more than 4)
+
+
+Design Choices:
+[Write 6-8 sentences explaining your design decisions:
+- Why did you choose those specific Bootstrap components?
+- How did you decide on the layout and structure?
+- What challenges did you face while building this page?
+- What are you most proud of on this page?
+- How does this page reflect your personality?
+- What would you add or improve if you had more time?
+- How did you ensure the page was responsive?]
+I chose Bootstrap components like the navbar, cards, and grid system because they make the page look organized and professional without needing a lot of custom CSS making things messy. The layout was planned so the most important information is easy to find and read. I put the page in sections so each topic feels clear and not crowded. One challenge I faced was getting everything centered correctly and making sure the cards lined up nicely on different screen sizes. I am most proud of the hobbies section because the cards look clean and responsive. This page reflects my personality by showing my interests, goals, and social side in a simple but colorful way. If I had more time, I would add animations or icons to make the page more interactive. I made sure that the page was responsive by using Bootstrap’s grid system and responsive classes like col-12 and col-md-4.
+
+
+Research and Problem-Solving:
+[Write 4-5 sentences about your learning process:
+- What resources did you use (Bootstrap docs, W3Schools, etc.)?
+- What was the hardest part to figure out?
+- Did you need to troubleshoot any issues? How did you solve them?
+- What did you learn about researching and implementing new components?
+- How has your confidence with Bootstrap grown from Module 1 to Module 2?]
+I used the Bootstrap documentation and W3Schools to learn how different components work and how to use them correctly. The hardest part was understanding how the grid system changes with different screen sizes, because it took me a bit to make it work. I had to troubleshoot some spacing issues, which I fixed by adjusting column sizes and checking other people's examples. While I did this, I learned how to research specific Bootstrap components and put them into my own project. My confidence with Bootstrap has grown a lot from Module 1 to Module 2 because I now understand how to combine multiple components into one page.
+

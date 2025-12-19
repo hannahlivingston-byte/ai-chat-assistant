@@ -30,7 +30,7 @@
 
 
   /* Text Colors */
-  --text-dark: #ebe8ff;
+  --text-dark: #5364ff;
   --text-light: #ffffff;
   --text-muted: #09013a;
 
@@ -450,4 +450,40 @@ html[data-theme="jaguars"] footer a {
 
 html[data-theme="jaguars"] footer a:hover {
   color: #ffffff !important;
+}
+/* ===== ABOUT ME PAGE STYLES ===== */
+
+
+.about-hero {
+ background: linear-gradient(135deg, var(--jag-black) 0%, var(--jag-accent) 100%);
+ color: var(--text-light);
+ padding: 80px 20px;
+}
+
+
+.profile-image {
+ max-width: 250px;
+ border: 5px solid var(--jag-gold);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.about-section {
+ padding: 40px 0;
+}
+.img {
+  margin: 2px 1px 1px 56px;
+}
+.social {
+  margin: 1px 3px 1px 15px
+}
+#center-text {
+  text-align: center;
+}
+img#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: set a width smaller than the container to see the centering effect */
+  width: 30%;
 }
